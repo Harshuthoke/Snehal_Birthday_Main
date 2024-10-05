@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A short message from me </title>
+    <link rel="icon" type="image/png" href="../image-seven.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Snehal.</strong>
+                        <p>
+                           Happiest Birthday Snehalllll,<br>
+                            You are the one who is always my side no matter what, you are the one always give me positivity everytime
+                            you are the best person I met in this college life, I will make sure this bond will never break. You are the one who always gave me correct advice, you are the one with whom I went for first ever hackathon of my life. There are many such things that you had done for me, I can't even remember the count.
+                            I can't write a big paragraphs like others but at the end I just want you to know you means alot in my life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        const heart = document.querySelector('.heart');
+
+        // Event listener to toggle the flap open/close and pull out the letter more
+        heart.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
